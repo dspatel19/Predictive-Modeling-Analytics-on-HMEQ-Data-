@@ -15,6 +15,34 @@ It contains missing data.
 It contains outliers.
 
 ## Table of Contents
+- [Data Preparation](#heading)
+- [Tree Based Models](#heading-1)
+- [Regression Based Models](#heading-2)
+- [Neural Network](#heading-3)
+
+
+# Heading levels
+
+> This is a fixture to test heading levels
+
+<!-- toc -->
+
+## Data Preparation 
+
+This is an h1 heading
+
+## Tree Based Models
+
+This is an h1 heading
+
+## Regression Based Models
+
+This is an h1 heading
+
+## Neural Network
+
+This is an h1 heading
+
 
 
 ## Data Dictionary
