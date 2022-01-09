@@ -15,10 +15,10 @@ It contains missing data.
 It contains outliers.
 
 ## Table of Contents
-- [Data Preparation](#heading)
-- [Tree Based Models](#heading-1)
-- [Regression Based Models](#heading-2)
-- [Neural Network](#heading-3)
+- [Heading](#Data Preparation)
+- [Heading](#Tree Based Models)
+- [Heading](#Regression Based Models)
+- [Heading](#Neural Network)
 
 
 # Heading levels
@@ -27,19 +27,19 @@ It contains outliers.
 
 <!-- toc -->
 
-## Data Preparation 
+## Heading
 
 This is an h1 heading
 
-## Tree Based Models
+## Heading
 
 This is an h1 heading
 
-## Regression Based Models
+## Heading
 
 This is an h1 heading
 
-## Neural Network
+## Heading
 
 This is an h1 heading
 
