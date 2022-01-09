@@ -15,10 +15,10 @@ It contains missing data.
 It contains outliers.
 
 ## Table of Contents
-- [Heading](#Data Preparation)
-- [Heading](#Tree Based Models)
-- [Heading](#Regression Based Models)
-- [Heading](#Neural Network)
+- [Data Preparation](#heading)
+- [Tree Based Models](#heading-1)
+- [Regression Based Models](#heading-2)
+- [Neural Network](#heading-3)
 
 
 # Heading levels
