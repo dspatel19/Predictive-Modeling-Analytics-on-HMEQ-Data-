@@ -77,13 +77,34 @@ We will continue to use Python to develop predictive models. In this assignment,
 - Use different colors for each curve and clearly label them
 - Include the Area under the ROC Curve (AUC) on the graph.
 
-## Heading
+## Regression Based Models
+we will continue to use Python to develop predictive models. In this assignment, we will use two different types of regression: Linear and Logistic. We will use Logistic regression to determine the probability of a crash. Linear regression will be used to calculate the damages assuming that a crash occurs
 
-This is an h1 heading
+### Create a Training and Test Data Set:
 
-## Heading
+### Logistic Regression
+- Develop a logistic regression model to determine the probability of a loan default. Use all of the variables.
+- Develop a logistic regression model to determine the probability of a loan default. Use the variables that were selected by a DECISION TREE.
+- Develop a logistic regression model to determine the probability of a loan default. Use the variables that were selected by a RANDOM FOREST.
+- Develop a logistic regression model to determine the probability of a loan default. Use the variables that were selected by a GRADIENT BOOSTING model.
+- Develop a logistic regression model to determine the probability of a loan default. Use the variables that were selected by STEPWISE SELECTION.
+- For each of the models
+  - Calculate the accuracy of the model on both the training and test data set
+  - Create a graph that shows the ROC curves for both the training and test data set. Clearly label each curve and display the Area Under the ROC curve.
+  - Display a ROC curve for the test data with all your models on the same graph (tree based and regression). Discuss which one is the most accurate. Which one would you recommend using?
+  - For one of the Regression Models, print the coefficients. Do the variables make sense? If not, what would you recommend?
 
-This is an h1 heading
+
+### Linear Regression:
+- Develop a linear regression model to determine the expected loss if the loan defaults. Use all of the variables.
+- Develop a linear regression model to determine the expected loss if the loan defaults. Use the variables that were selected by a DECISION TREE.
+- Develop a linear regression model to determine the expected loss if the loan defaults. Use the variables that were selected by a RANDOM FOREST.
+- Develop a linear regression model to determine the expected loss if the loan defaults. Use the variables that were selected by a GRADIENT BOOSTING model.
+- Develop a linear regression model to determine the expected loss if the loan defaults. Use the variables that were selected by STEPWISE SELECTION.
+- For each of the models
+  - Calculate the RMSE for both the training data set and the test data set
+  - List the RMSE for the test data set for all of the models created (tree based and regression). Discuss which one is the most accurate. Which one would you recommend using?
+  - For one of the Regression Models, print the coefficients. Do the variables make sense? If not, what would you recommend?
 
 
 
