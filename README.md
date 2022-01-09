@@ -13,7 +13,9 @@ As with all real world data, this data is far from perfect.
 It contains both numerical and categorical variables.
 It contains missing data.
 It contains outliers.
-For this assignment we will explore the data and begin to prepare the data set so that it can be used in predictive models.
+
+## Table of Contents
+
 
 ## Data Dictionary
 
