@@ -1,5 +1,4 @@
 # Predictive Modeling & Analytics on Home Equity Line of Credit Data (Python)
-Developed different predictive models to determine the level risk of each loan based on whether or not loans defaulted, and loss amount on bad loans. Evaluated each model with ROC curve and RMSE accuracy metrics. 
 
 ## HMEQ Data Set
 In this assignment we will use Python to examine a data set containing Home Equity Loans. The data set contains two target variables. The first target, TARGET_BAD_FLAG indicates whether or not the loan defaulted. If the value is set to 1, then the loan went bad and the bank lost money. If the value is set to 0, the loan was repaid.
@@ -21,15 +20,22 @@ It contains outliers.
 - [Neural Network](#heading-3)
 
 
-# Heading levels
+# Building Machine Learning Models
 
-> This is a fixture to test heading levels
+> Developed different predictive models to determine the level risk of each loan based on whether or not loans defaulted, and loss amount on bad loans. Evaluated each model with ROC curve and RMSE accuracy metrics. 
 
 <!-- toc -->
 
-## Heading
+## Data Preparation
 
-This is an h1 heading
+Download the HMEQ Data set
+Read the data into Python
+Explore both the input and target variables using statistical techniques.
+Explore both the input and target variables using graphs and other visualization.
+Look for relationships between the input variables and the targets.
+Fix (impute) all missing data.
+Note: For numerical data, create a flag variable to indicate if the value was missing
+Convert all categorical variables numeric variables
 
 ## Heading
 
