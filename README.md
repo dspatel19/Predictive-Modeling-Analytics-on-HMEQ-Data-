@@ -37,9 +37,45 @@ It contains outliers.
 - Note: For numerical data, create a flag variable to indicate if the value was missing
 - Convert all categorical variables numeric variables
 
-## Heading
+## Tree Based Models
 
-This is an h1 heading
+We will continue to use Python to develop predictive models. In this assignment, we will use three different tree based techniques to analyze the data: DECISION TREES, RANDOM FORESTS, and GRADIENT BOOSTING. The deliverables for each technique are given below.
+
+### Create a Training and Test Data Set:
+
+### Decision Trees:
+- Develop a decision tree to predict the probability of default
+- Calculate the accuracy of the model on both the training and test data set
+- Create a graph that shows the ROC curves for both the training and test data set. Clearly label each curve and display the Area Under the ROC curve.
+- Display the Decision Tree using a Graphviz program
+- List the variables included in the decision tree that predict loan default.
+- Develop a decision tree to predict the loss amount assuming that the loan defaults
+- Calculate the RMSE for both the training data set and the test data set
+- Display the Decision Tree using a Graphviz program
+- List the variables included in the decision tree that predict loss amount.
+
+### Random Forests:
+- Develop a Random Forest to predict the probability of default
+- Calculate the accuracy of the model on both the training and test data set
+- Create a graph that shows the ROC curves for both the training and test data set. Clearly label each curve and display the Area Under the ROC curve.
+- List the variables included in the Random Forest that predict loan default.
+- Develop a Random Forest to predict the loss amount assuming that the loan defaults
+- Calculate the RMSE for both the training data set and the test data set
+- List the variables included in the Random Forest that predict loss amount.
+
+### Gradient Boosting:
+- Develop a Gradient Boosting model to predict the probability of default
+- Calculate the accuracy of the model on both the training and test data set
+- Create a graph that shows the ROC curves for both the training and test data set. Clearly - label each curve and display the Area Under the ROC curve.
+- List the variables included in the Gradient Boosting that predict loan default.
+- Develop a Gradient Boosting to predict the loss amount assuming that the loan defaults
+- Calculate the RMSE for both the training data set and the test data set
+- List the variables included in the Gradient Boosting that predict loss amount.
+
+### ROC Curves:
+- Generate a ROC curve for the Decision Tree, Random Forest, and Gradient Boosting models using the Test Data Set
+- Use different colors for each curve and clearly label them
+- Include the Area under the ROC Curve (AUC) on the graph.
 
 ## Heading
 
