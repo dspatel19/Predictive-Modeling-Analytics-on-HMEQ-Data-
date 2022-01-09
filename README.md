@@ -14,10 +14,10 @@ It contains missing data.
 It contains outliers.
 
 ## Table of Contents
-- [Data Preparation](#heading)
-- [Tree Based Models](#heading-1)
-- [Regression Based Models](#heading-2)
-- [Neural Network](#heading-3)
+- [Data Preparation]
+- [Tree Based Models]
+- [Regression Based Models]
+- [Neural Network]
 
 
 # Building Machine Learning Models
