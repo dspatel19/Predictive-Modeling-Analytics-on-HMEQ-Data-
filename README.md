@@ -41,9 +41,9 @@ It contains outliers.
 
 We will continue to use Python to develop predictive models. In this assignment, we will use three different tree based techniques to analyze the data: DECISION TREES, RANDOM FORESTS, and GRADIENT BOOSTING. The deliverables for each technique are given below.
 
-### Create a Training and Test Data Set:
+#### Create a Training and Test Data Set:
 
-### Decision Trees:
+#### Decision Trees:
 - Develop a decision tree to predict the probability of default
 - Calculate the accuracy of the model on both the training and test data set
 - Create a graph that shows the ROC curves for both the training and test data set. Clearly label each curve and display the Area Under the ROC curve.
@@ -54,7 +54,7 @@ We will continue to use Python to develop predictive models. In this assignment,
 - Display the Decision Tree using a Graphviz program
 - List the variables included in the decision tree that predict loss amount.
 
-### Random Forests:
+#### Random Forests:
 - Develop a Random Forest to predict the probability of default
 - Calculate the accuracy of the model on both the training and test data set
 - Create a graph that shows the ROC curves for both the training and test data set. Clearly label each curve and display the Area Under the ROC curve.
@@ -63,7 +63,7 @@ We will continue to use Python to develop predictive models. In this assignment,
 - Calculate the RMSE for both the training data set and the test data set
 - List the variables included in the Random Forest that predict loss amount.
 
-### Gradient Boosting:
+#### Gradient Boosting:
 - Develop a Gradient Boosting model to predict the probability of default
 - Calculate the accuracy of the model on both the training and test data set
 - Create a graph that shows the ROC curves for both the training and test data set. Clearly - label each curve and display the Area Under the ROC curve.
@@ -72,7 +72,7 @@ We will continue to use Python to develop predictive models. In this assignment,
 - Calculate the RMSE for both the training data set and the test data set
 - List the variables included in the Gradient Boosting that predict loss amount.
 
-### ROC Curves:
+#### ROC Curves:
 - Generate a ROC curve for the Decision Tree, Random Forest, and Gradient Boosting models using the Test Data Set
 - Use different colors for each curve and clearly label them
 - Include the Area under the ROC Curve (AUC) on the graph.
@@ -80,9 +80,9 @@ We will continue to use Python to develop predictive models. In this assignment,
 ## Regression Based Models
 we will continue to use Python to develop predictive models. In this assignment, we will use two different types of regression: Linear and Logistic. We will use Logistic regression to determine the probability of a crash. Linear regression will be used to calculate the damages assuming that a crash occurs
 
-### Create a Training and Test Data Set:
+#### Create a Training and Test Data Set:
 
-### Logistic Regression
+#### Logistic Regression
 - Develop a logistic regression model to determine the probability of a loan default. Use all of the variables.
 - Develop a logistic regression model to determine the probability of a loan default. Use the variables that were selected by a DECISION TREE.
 - Develop a logistic regression model to determine the probability of a loan default. Use the variables that were selected by a RANDOM FOREST.
@@ -95,7 +95,7 @@ we will continue to use Python to develop predictive models. In this assignment,
   - For one of the Regression Models, print the coefficients. Do the variables make sense? If not, what would you recommend?
 
 
-### Linear Regression:
+#### Linear Regression:
 - Develop a linear regression model to determine the expected loss if the loan defaults. Use all of the variables.
 - Develop a linear regression model to determine the expected loss if the loan defaults. Use the variables that were selected by a DECISION TREE.
 - Develop a linear regression model to determine the expected loss if the loan defaults. Use the variables that were selected by a RANDOM FOREST.
@@ -105,6 +105,39 @@ we will continue to use Python to develop predictive models. In this assignment,
   - Calculate the RMSE for both the training data set and the test data set
   - List the RMSE for the test data set for all of the models created (tree based and regression). Discuss which one is the most accurate. Which one would you recommend using?
   - For one of the Regression Models, print the coefficients. Do the variables make sense? If not, what would you recommend?
+
+
+## Neural Networks
+we will continue to use Python to develop predictive models. In this assignment, we will use two different types of regression: Linear and Logistic. We will use Logistic regression to determine the probability of a crash. Linear regression will be used to calculate the damages assuming that a crash occurs.
+
+#### Create a Training and Test Data Set:
+
+#### Tensor Flow Model To Predict Loan Defaults:
+
+- Develop a model using Tensor Flow that will predict Loan Default.
+  - For your model, do the following:
+  - Try at least three different Activation Functions
+  - Try one and two hidden layers 
+  - Try using a Dropout Layer
+ 
+- Explore using a variable selection technique
+- For each of the models
+  - Calculate the accuracy of the model on both the training and test data set 
+  - Create a graph that shows the ROC curves for both the training and test data set. 
+  - Clearly label each curve and display the Area Under the ROC curve.
+  - Display a ROC curve for the test data with all your models on the same graph (tree based, regression, and TF). Discuss which one is the most accurate. Which one would you recommend using?
+
+#### Tensor Flow Model to Predict Loss Given Default:
+- Develop a model using Tensor Flow that will predict Loan Default.
+- For your model, do the following:
+  - Try at least three different Activation Functions
+  - Try one and two hidden layers
+  - Try using a Dropout Layer
+- Explore using a variable selection technique
+- For each of the models
+  - Calculate the RMSE for both the training data set and the test data set
+  - List the RMSE for the test data set for all of the models created (tree based, regression, and TF). Discuss which one is the most accurate. Which one would you recommend using?
+
 
 
 
