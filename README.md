@@ -15,6 +15,8 @@ It contains missing data.
 It contains outliers.
 For this assignment we will explore the data and begin to prepare the data set so that it can be used in predictive models.
 
+## Data Dictionary
+
 | VARIABLE          | DEFINITION                                                                                                                                                             | ROLE   | TYPE     | CONVENTIONAL WISDOM                                                                                                                                                                                                                                                                                                    |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | TARGET\_BAD\_FLAG | BAD=1 (Loan was defaulted)                                                                                                                                             | TARGET | BINARY   | HMEQ = Home Equity Line of Credit Loan. BINARY TARGET                                                                                                                                                                                                                                                                  |
