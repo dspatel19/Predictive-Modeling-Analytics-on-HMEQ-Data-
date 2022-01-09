@@ -28,14 +28,14 @@ It contains outliers.
 
 ## Data Preparation
 
-Download the HMEQ Data set
-Read the data into Python
-Explore both the input and target variables using statistical techniques.
-Explore both the input and target variables using graphs and other visualization.
-Look for relationships between the input variables and the targets.
-Fix (impute) all missing data.
-Note: For numerical data, create a flag variable to indicate if the value was missing
-Convert all categorical variables numeric variables
+- Download the HMEQ Data set
+- Read the data into Python
+- Explore both the input and target variables using statistical techniques.
+- Explore both the input and target variables using graphs and other visualization.
+- Look for relationships between the input variables and the targets.
+- Fix (impute) all missing data.
+- Note: For numerical data, create a flag variable to indicate if the value was missing
+- Convert all categorical variables numeric variables
 
 ## Heading
 
